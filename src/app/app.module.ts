@@ -19,14 +19,14 @@ import {RouterModule} from '@angular/router';
     StarComponent,
     WelcomeComponent,
     ProductDetailComponent,
-    RouterModule
+
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpClientModule,
     RouterModule.forRoot([
-      {path: 'product', component: ProductListComponent},
+      {path: 'products', component: ProductListComponent},
       {path: 'products/id', component: ProductDetailComponent},
       {path: 'welcome', component: WelcomeComponent},
       {path: '', redirectTo: 'welcome', pathMatch: 'full'},
