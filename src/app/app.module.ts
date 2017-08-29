@@ -19,7 +19,7 @@ import {RouterModule} from '@angular/router';
     StarComponent,
     WelcomeComponent,
     ProductDetailComponent,
-    RouterModule
+    //RouterModule
   ],
   imports: [
     BrowserModule,
